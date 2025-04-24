@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: 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
 
       - name: Update log
         run: |
